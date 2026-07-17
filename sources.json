@@ -1,0 +1,26 @@
+[
+  {
+    "name": "refilter-domains",
+    "url": "https://github.com/1andrevich/Re-filter-lists/releases/latest/download/ruleset-domain-refilter_domains.srs"
+  },
+  {
+    "name": "refilter-ips",
+    "url": "https://github.com/1andrevich/Re-filter-lists/releases/latest/download/ruleset-ip-refilter_ipsum.srs"
+  },
+  {
+    "name": "telegram-domains",
+    "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/sing-box/rule-set-geosite/geosite-telegram.srs"
+  },
+  {
+    "name": "telegram-ips",
+    "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/sing-box/rule-set-geoip/geoip-telegram.srs"
+  },
+  {
+    "name": "openai-domains",
+    "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/sing-box/rule-set-geosite/geosite-openai.srs"
+  },
+  {
+    "name": "anthropic-domains",
+    "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/sing-box/rule-set-geosite/geosite-anthropic.srs"
+  }
+]
