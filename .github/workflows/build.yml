@@ -1,0 +1,77 @@
+name: Build HomeProxy rules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 */6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "sources.json"
+      - "custom/**"
+      - "scripts/**"
+      - ".github/workflows/build.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: homeproxy-rules-build
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      SING_BOX_VERSION: "1.12.17"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pinned sing-box
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          archive="sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz"
+          url="https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/${archive}"
+
+          curl --fail --location --retry 5 --retry-all-errors \
+            --output "/tmp/${archive}" \
+            "${url}"
+
+          tar -xzf "/tmp/${archive}" -C /tmp
+          sudo install \
+            -m 0755 \
+            "/tmp/sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box" \
+            /usr/local/bin/sing-box
+
+          sing-box version
+
+      - name: Build combined ruleset
+        run: python scripts/build.py --sing-box /usr/local/bin/sing-box
+
+      - name: Commit updated binary
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git add dist/homeproxy.srs dist/stats.json
+
+          if git diff --cached --quiet; then
+            echo "The upstream data did not change."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update HomeProxy rules [skip ci]"
+          git push
