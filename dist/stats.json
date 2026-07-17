@@ -1,6 +1,7 @@
 {
   "sing_box_compatibility": "1.12.x",
   "source_format_version": 3,
+  "match_structure": "domain OR ip_cidr",
   "sources": [
     {
       "name": "refilter-domains",
@@ -52,6 +53,6 @@
     "domain_regex": 0,
     "ip_cidr": 0
   },
-  "output_sha256": "1ff35a90a7fdac69a721b9f7c02d787a144d40c2a12cef54f6f602f49c8cdaae",
-  "output_size_bytes": 624075
+  "output_sha256": "cc457b261dc2eaf064919aec457e9e81a9155471bd4a99ac61c96483097c1724",
+  "output_size_bytes": 624077
 }
