@@ -1,0 +1,52 @@
+{
+  "sing_box_compatibility": "1.12.x",
+  "source_format_version": 3,
+  "sources": [
+    {
+      "name": "refilter-domains",
+      "sha256": "75d450a786e6c2f3387b3a85aaa5088cb41b88e9577a95c145276144cb329a1d",
+      "unique_items_added": 86140
+    },
+    {
+      "name": "refilter-ips",
+      "sha256": "e543eba4b029f21f0c13cc38a6b8a14e2f1437475f54e0248224155d001a478a",
+      "unique_items_added": 28559
+    },
+    {
+      "name": "telegram-domains",
+      "sha256": "0966b150d07ea2f5025904e0e87eda11a3c11dad31c9c6bbece7443c5aaf9b94",
+      "unique_items_added": 8
+    },
+    {
+      "name": "telegram-ips",
+      "sha256": "124b6decbcd871517927c15857b26c6898fe614cb2ef5e711d83835e9c700c2b",
+      "unique_items_added": 5
+    },
+    {
+      "name": "openai-domains",
+      "sha256": "bd05df30dc9fe5c5aa6071cb56e9cea13bdd6972b6f86931b8e053a28bdafce5",
+      "unique_items_added": 13
+    },
+    {
+      "name": "anthropic-domains",
+      "sha256": "aa5ec267df5298da78be1f6de9d357588ac309c2874bf2b838c32597b0547c06",
+      "unique_items_added": 7
+    }
+  ],
+  "include_counts": {
+    "domain": 10,
+    "domain_suffix": 86157,
+    "domain_keyword": 0,
+    "domain_regex": 1,
+    "ip_cidr": 28564
+  },
+  "exclude_counts": {
+    "domain": 0,
+    "domain_suffix": 0,
+    "domain_keyword": 0,
+    "domain_regex": 0,
+    "ip_cidr": 0
+  },
+  "output_sha256": "c57a85a2546c3d7a3e0cfc105050dfe91fc5e46232e1fff8706eb17c7a26af00",
+  "output_size_bytes": 624090
+}
