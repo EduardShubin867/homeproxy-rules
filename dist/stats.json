@@ -23,19 +23,24 @@
       "unique_items_added": 5
     },
     {
+      "name": "discord-domains",
+      "sha256": "1618659024eafaca4be453c81523e833ef441faec6eb21fdf39342382ac48cf4",
+      "unique_items_added": 7
+    },
+    {
       "name": "openai-domains",
-      "sha256": "bd05df30dc9fe5c5aa6071cb56e9cea13bdd6972b6f86931b8e053a28bdafce5",
+      "sha256": "d2c8fffc93d82084c4a01955891195cb7df84e1a804200de9e41868ac99e723b",
       "unique_items_added": 13
     },
     {
       "name": "anthropic-domains",
-      "sha256": "aa5ec267df5298da78be1f6de9d357588ac309c2874bf2b838c32597b0547c06",
+      "sha256": "aaca1f727c8ca51690d2c81358b9541c8f6c356d5c9a45b2b7da23658a70d906",
       "unique_items_added": 7
     }
   ],
   "include_counts": {
-    "domain": 10,
-    "domain_suffix": 86157,
+    "domain": 12,
+    "domain_suffix": 86162,
     "domain_keyword": 0,
     "domain_regex": 1,
     "ip_cidr": 28564
@@ -47,6 +52,6 @@
     "domain_regex": 0,
     "ip_cidr": 0
   },
-  "output_sha256": "c57a85a2546c3d7a3e0cfc105050dfe91fc5e46232e1fff8706eb17c7a26af00",
-  "output_size_bytes": 624090
+  "output_sha256": "1ff35a90a7fdac69a721b9f7c02d787a144d40c2a12cef54f6f602f49c8cdaae",
+  "output_size_bytes": 624075
 }
