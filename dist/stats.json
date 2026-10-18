@@ -30,8 +30,8 @@
     },
     {
       "name": "openai-domains",
-      "sha256": "d2c8fffc93d82084c4a01955891195cb7df84e1a804200de9e41868ac99e723b",
-      "unique_items_added": 13
+      "sha256": "dfa8de6641a181b03877bb0837898c8829b27ee2f1466f78248f5aaea36f52f0",
+      "unique_items_added": 14
     },
     {
       "name": "anthropic-domains",
@@ -41,7 +41,7 @@
   ],
   "include_counts": {
     "domain": 12,
-    "domain_suffix": 81298,
+    "domain_suffix": 81299,
     "domain_keyword": 0,
     "domain_regex": 1,
     "ip_cidr": 25163
@@ -53,6 +53,6 @@
     "domain_regex": 0,
     "ip_cidr": 0
   },
-  "output_sha256": "f5b1d10b326539ce22496ea34a82d13537abce3de16c63501cddf217a4c6457e",
-  "output_size_bytes": 585228
+  "output_sha256": "4ff1760612052156e08e71063a09b21897bff2ef3906de8844aea8247ca5a59f",
+  "output_size_bytes": 585033
 }
