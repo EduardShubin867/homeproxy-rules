@@ -30,18 +30,18 @@
     },
     {
       "name": "openai-domains",
-      "sha256": "dfa8de6641a181b03877bb0837898c8829b27ee2f1466f78248f5aaea36f52f0",
-      "unique_items_added": 14
+      "sha256": "347e916a62aeac6932bdc84bac952dfcbdb65f71462a8da428fd4987c164e166",
+      "unique_items_added": 15
     },
     {
       "name": "anthropic-domains",
-      "sha256": "4c58ec54eed852bddc07d434d42b1b97c4c22ebc52aa3b393221b607c3d56f6f",
-      "unique_items_added": 6
+      "sha256": "6e9a6df986d00647bd5c425bc70e5c1443e24867cda4d0dc88eacbc344f369a9",
+      "unique_items_added": 16
     }
   ],
   "include_counts": {
-    "domain": 12,
-    "domain_suffix": 81417,
+    "domain": 13,
+    "domain_suffix": 81427,
     "domain_keyword": 0,
     "domain_regex": 1,
     "ip_cidr": 25271
@@ -53,6 +53,6 @@
     "domain_regex": 0,
     "ip_cidr": 0
   },
-  "output_sha256": "2df60cef5327e91d4f98ec99a5591c2c609d1fc55601a77d15c88ee07f6b7156",
-  "output_size_bytes": 586638
+  "output_sha256": "1f4f6a5f7a682036d0dc21e54f5f0939b628e365ba2a098a086cbc96c2d51918",
+  "output_size_bytes": 586523
 }
