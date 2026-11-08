@@ -35,12 +35,12 @@
     },
     {
       "name": "anthropic-domains",
-      "sha256": "6e9a6df986d00647bd5c425bc70e5c1443e24867cda4d0dc88eacbc344f369a9",
-      "unique_items_added": 16
+      "sha256": "f58276f64f160d95043eb21f5444e0633d46c64143014069ef067a200f7ab2b4",
+      "unique_items_added": 18
     }
   ],
   "include_counts": {
-    "domain": 13,
+    "domain": 15,
     "domain_suffix": 82178,
     "domain_keyword": 0,
     "domain_regex": 1,
@@ -53,6 +53,6 @@
     "domain_regex": 0,
     "ip_cidr": 0
   },
-  "output_sha256": "429322ba83c5d164986b49d018b8f9f92d0e767040c6fd3c9afa50ea9be014f4",
-  "output_size_bytes": 592103
+  "output_sha256": "270fe77ff19846e3eb4910a0de7e4ea73168455bcc19a79a8089ce277f7be405",
+  "output_size_bytes": 592083
 }
