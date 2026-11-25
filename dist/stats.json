@@ -5,13 +5,13 @@
   "sources": [
     {
       "name": "refilter-domains",
-      "sha256": "32ed3fa00baaa8144a6aa2d910b663692baad161745300acc8b8ef8bc89b6979",
-      "unique_items_added": 82146
+      "sha256": "15ee8fcae533b5311b64cd250876d9f6d5037f2a96225020ca9dae58376886ab",
+      "unique_items_added": 81460
     },
     {
       "name": "refilter-ips",
-      "sha256": "3b61180585c8873c4a793601f908ab5f8cd5ff36c333cd2ad0110d34ca8ea9b0",
-      "unique_items_added": 25394
+      "sha256": "21a475b47cac26a15e00e488ade7102086b858128eda6034f7d7da8df6e230e5",
+      "unique_items_added": 25277
     },
     {
       "name": "telegram-domains",
@@ -41,10 +41,10 @@
   ],
   "include_counts": {
     "domain": 15,
-    "domain_suffix": 82178,
+    "domain_suffix": 81492,
     "domain_keyword": 0,
     "domain_regex": 1,
-    "ip_cidr": 25399
+    "ip_cidr": 25282
   },
   "exclude_counts": {
     "domain": 0,
@@ -53,6 +53,6 @@
     "domain_regex": 0,
     "ip_cidr": 0
   },
-  "output_sha256": "270fe77ff19846e3eb4910a0de7e4ea73168455bcc19a79a8089ce277f7be405",
-  "output_size_bytes": 592083
+  "output_sha256": "5fae428521a0fa3844753300e790961bdeecc4e0528b211685f3ab0dc87bf214",
+  "output_size_bytes": 587468
 }
